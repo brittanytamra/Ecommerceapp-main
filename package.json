@@ -1,0 +1,32 @@
+{   
+    "name": "outletecommerceapp",
+    "version": "1.0.0",
+    "description": "A simple React app",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "webpack --mode production",
+        "test": "react-scripts test --env=jsdom"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.22.9",
+        "@babel/preset-env": "^7.22.9",
+        "@babel/preset-react": "^7.22.9",
+        "@testing-library/jest-dom": "^6.5.0",
+        "@testing-library/react": "^16.0.1",
+        "babel-loader": "^9.1.2",
+        "react-scripts": "^5.0.1",
+        "webpack": "^5.82.1",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^4.15.0"
+    },
+
+    "author": "Your Name",
+    "license": "MIT"
+}
+
+
